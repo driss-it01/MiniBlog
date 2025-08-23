@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Blog</title>
+    <link rel="stylesheet" href="public/css/style.css">
 </head>
 <body>
-    <h1>Mini Blog</h1>
-    <hr>
-    <?= $content ?>
+    <div class="container">
+        <h1>Mini Blog</h1>
+        <hr>
+        <?= $content ?>
+    </div>
+
 </body>
 </html>

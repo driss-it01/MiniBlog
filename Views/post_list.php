@@ -9,7 +9,7 @@
             <td><?= nl2br(htmlspecialchars($post["content"])) ?></td>
             <td>
                 <a href="index.php?action=edit&id=<?= $post["id"]?>">Edit</a>
-                <a href="index.php?action=edit&id=<?= $post["id"]?>" onclick="return confirm('Delete this post?')">Delete</a>
+                <a href="index.php?action=delete&id=<?= $post["id"]?>" onclick="return confirm('Delete this post?')">Delete</a>
             </td>
         </tr>
         <?php endforeach; ?>
